@@ -104,6 +104,7 @@ h6 {
   --content-spacing: 1rem;
   display: grid;
   max-width: 600px;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 600px) {
@@ -130,11 +131,6 @@ h6 {
   font-family: var(--font-secondary);
   color: var(--clr-neutral-900);
   line-height: 1;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
 }
 
 .product__discount-price {
@@ -168,6 +164,11 @@ button {
 
 .button:is(:hover, :focus) {
   background-color: var(--clr-primary-500);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
